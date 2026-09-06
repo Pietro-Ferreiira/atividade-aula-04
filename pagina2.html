@@ -1,37 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Página 2</title>
+    <meta charset="UTF-8">
+    <title>UrbanWear - PolitiShop</title>
 </head>
 <body>
 
-  <nav>
-    <a href="Home.html">Início</a> |
-    <a href="pagina2.html">Página 2</a> |
-    <a href="pagina3.html">Página 3</a>
-  </nav>
-  <hr>
+    <header>
+        <h1>PolitiShop</h1>
+        <h2>UrbanWear - Vestuário e Estilo</h2>
+        <p><a href="home.html">← Voltar para a Página Principal</a></p>
+    </header>
 
-  <h1>Página 2</h1>
-  <p>Conteúdo da segunda página.</p>
+    <hr>
 
-  <h3>Lista ordenada de passos:</h3>
-  <ol>
-    <li>Abrir o VS Code</li>
-    <li>Editar o HTML</li>
-    <li>Salvar o arquivo</li>
-  </ol>
+    <main>
+        <h3>Catálogo de Produtos</h3>
+        
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="../img/camiseta.jpg" alt="Camiseta Algodão" width="80"></td>
+                    <td>Camiseta Basic Oversized</td>
+                    <td>Camiseta 100% algodão penteado de alta gramatura.</td>
+                    <td>R$ 79,90</td>
+                    <td><a href="checkout.html?loja=wear&produto=camiseta">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/moletom.jpg" alt="Moletom Canguru" width="80"></td>
+                    <td>Moletom Canguru Preto</td>
+                    <td>Moletom com capuz, bolso frontal e forro flanelado.</td>
+                    <td>R$ 159,90</td>
+                    <td><a href="checkout.html?loja=wear&produto=moletom">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/bone.jpg" alt="Boné Aba Reta" width="80"></td>
+                    <td>Boné Streetwear</td>
+                    <td>Boné aba reta com ajuste snapback em tecido resistente.</td>
+                    <td>R$ 59,90</td>
+                    <td><a href="checkout.html?loja=wear&produto=bone">Comprar</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
-  <h3>Tabela de tags:</h3>
-  <table border="1">
-    <tr><th>Tag</th><th>Função</th></tr>
-    <tr><td>&lt;h1&gt;</td><td>Título principal</td></tr>
-    <tr><td>&lt;p&gt;</td><td>Parágrafo</td></tr>
-    <tr><td>&lt;table&gt;</td><td>Tabela</td></tr>
-  </table>
+    <hr>
 
-  <p>Voltar para o <a href="Home.html">Início</a>.</p>
+    <footer>
+        <p><strong>Navegação:</strong></p>
+        <p>
+            <a href="home.html">Home</a> | 
+            <a href="pagina1.html">TechStore</a> | 
+            <a href="pagina2.html">UrbanWear</a> | 
+            <a href="pagina3.html">HomeStyle</a> | 
+            <a href="checkout.html">Checkout</a>
+        </p>
+        <p>&copy; 2026 PolitiShop - Projeto para fins acadêmicos.</p>
+    </footer>
 
 </body>
 </html>
