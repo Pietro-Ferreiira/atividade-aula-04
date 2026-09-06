@@ -1,39 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Página 3</title>
+    <meta charset="UTF-8">
+    <title>AlphaMarket - Monitores</title>
 </head>
 <body>
 
-  <nav>
-    <a href="Home.html">Início</a> |
-    <a href="pagina2.html">Página 2</a> |
-    <a href="pagina3.html">Página 3</a>
-  </nav>
-  <hr>
+    <header>
+        <h1>AlphaMarket</h1>
+        <h2>Setor de Monitores e Suportes</h2>
+        <p><a href="home.html">← Voltar ao Início</a></p>
+    </header>
 
-  <h1>Página 3 - Imagem e Contato</h1>
-  <img src="https://placehold.co/300x150" alt="Imagem de exemplo" width="300">
+    <hr>
 
-  <p>Esta é a <em>página de imagens e contato</em>.</p>
+    <main>
+        <h3>Catálogo de Telas e Acessórios</h3>
+        
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Produto</th>
+                    <th>Especificações</th>
+                    <th>Preço</th>
+                    <th>Comprar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="../img/monitor.jpg" alt="Monitor Full HD" width="80"></td>
+                    <td>Monitor LED 21.5"</td>
+                    <td>Painel Full HD (1080p) com entradas HDMI e VGA.</td>
+                    <td>R$ 520,00</td>
+                    <td><a href="checkout.html?categoria=monitores&item=monitor">Garantir Item</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/suporte.jpg" alt="Suporte Articulado" width="80"></td>
+                    <td>Suporte Articulado VESA</td>
+                    <td>Compatível com telas de 13 a 27 polegadas com ajuste de altura.</td>
+                    <td>R$ 95,00</td>
+                    <td><a href="checkout.html?categoria=monitores&item=suporte">Garantir Item</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/filtro.jpg" alt="Filtro de Linha" width="80"></td>
+                    <td>Filtro de Linha 5 Tomadas</td>
+                    <td>Com chave liga/desliga e fusível de proteção contra surtos.</td>
+                    <td>R$ 35,00</td>
+                    <td><a href="checkout.html?categoria=monitores&item=filtro">Garantir Item</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
-  <blockquote>
-    "Uma imagem vale mais que mil palavras."
-  </blockquote>
+    <hr>
 
-  <h3>Formulário de contato:</h3>
-  <form>
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome"><br><br>
-
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br><br>
-
-    <input type="submit" value="Enviar">
-  </form>
-
-  <p>Voltar para a <a href="pagina2.html">Página 2</a>.</p>
+    <footer>
+        <p><strong>Navegação Geral:</strong></p>
+        <p>
+            <a href="home.html">Home</a> | 
+            <a href="pagina1.html">Periféricos</a> | 
+            <a href="pagina2.html">Áudio</a> | 
+            <a href="pagina3.html">Monitores</a> | 
+            <a href="checkout.html">Carrinho / Checkout</a>
+        </p>
+        <p>&copy; 2026 AlphaMarket - Desenvolvimento Web I.</p>
+    </footer>
 
 </body>
 </html>
