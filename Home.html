@@ -1,29 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Início</title>
+    <meta charset="UTF-8">
+    <title>PolitiShop - Loja 1</title>
 </head>
 <body>
 
-  <nav>
-    <a href="Home.html">Início</a> |
-    <a href="pagina2.html">Página 2</a> |
-    <a href="pagina3.html">Página 3</a>
-  </nav>
-  <hr>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>PolitiShop</h1>
+        <h2>Catálogo - Loja 1</h2>
+        <p><a href="home.html">← Voltar para a Página Principal</a></p>
+    </header>
 
-  <h1>Página Inicial</h1>
-  <p>Bem-vindo ao meu site! Este projeto usa várias tags de HTML.</p>
+    <hr>
 
-  <h2>O que você vai encontrar:</h2>
-  <ul>
-    <li>Lista ordenada</li>
-    <li>Tabela</li>
-    <li>Imagem e formulário</li>
-  </ul>
+    <!-- Catálogo de Produtos em Tabela -->
+    <main>
+        <h3>Produtos Disponíveis</h3>
+        
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="../img/produto1.jpg" alt="Boné" width="80"></td>
+                    <td>Boné Oficial</td>
+                    <td>Boné 100% algodão com bordado frontal.</td>
+                    <td>R$ 49,90</td>
+                    <td><a href="checkout.html?loja=1&produto=bone">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/produto2.jpg" alt="Camiseta" width="80"></td>
+                    <td>Camiseta Personalizada</td>
+                    <td>Camiseta estampa exclusiva em malha fria.</td>
+                    <td>R$ 69,90</td>
+                    <td><a href="checkout.html?loja=1&produto=camiseta">Comprar</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/produto3.jpg" alt="Caneca" width="80"></td>
+                    <td>Caneca de Porcelana</td>
+                    <td>Caneca 325ml resistente ao micro-ondas.</td>
+                    <td>R$ 29,90</td>
+                    <td><a href="checkout.html?loja=1&produto=caneca">Comprar</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
-  <p>Vá direto para a <a href="pagina3.html">Página 3</a> sem passar pela Página 2!</p>
+    <hr>
+
+    <!-- Rodapé Padrão -->
+    <footer>
+        <p><strong>Navegação do Site:</strong></p>
+        <p>
+            <a href="home.html">Home</a> | 
+            <a href="pagina1.html">Loja 1</a> | 
+            <a href="pagina2.html">Loja 2</a> | 
+            <a href="pagina3.html">Loja 3</a> | 
+            <a href="checkout.html">Checkout</a>
+        </p>
+        <p>&copy; 2026 PolitiShop - Projeto para fins acadêmicos.</p>
+    </footer>
 
 </body>
 </html>
